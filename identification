@@ -1,9 +1,4 @@
-host='localhost',
-                                         database='test_record',
-                                         user=us,
-                                         password='123456'
-
-                                         config = {
+config = {
   'user': 'user',
   'password': '123456',
   'host': 'localhost',
