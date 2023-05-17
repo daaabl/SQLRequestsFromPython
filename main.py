@@ -3,12 +3,7 @@ from mysql.connector import Error
 from configs import connect_config
 from faker import Faker
 
-#newcode
-#does it appear?
-
 fake = Faker()
-
-a = 1
 
 def read_table(table_name):
     sql_select_Query = "select * from " + table_name
