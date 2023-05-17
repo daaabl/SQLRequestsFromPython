@@ -3,6 +3,9 @@ from mysql.connector import Error
 from configs import connect_config
 from faker import Faker
 
+#newcode
+#does it appear?
+
 fake = Faker()
 
 def read_table(table_name):
