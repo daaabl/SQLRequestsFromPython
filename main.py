@@ -8,6 +8,8 @@ from faker import Faker
 
 fake = Faker()
 
+a = 1
+
 def read_table(table_name):
     sql_select_Query = "select * from " + table_name
     cursor.execute(sql_select_Query)
